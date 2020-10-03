@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uhlarik Project Proposal</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script type="module" src="./js/main.js"></script>
+    
+    <!-- <script type="module" src="./js/basics.js"></script> -->
+  </head>
+  <body>
+    <header>
+      <img class="hero-image"
+        src="./images/compost-example.png"
+        alt="Composting Image"
+        width="100%"
+      />
+
+      <nav id="main-nav">
+        <h1>🌿♻️ All About Composting 🌿♻️</h1>
+      </nav>
+    </header>
+    <main>
+      <div id ="js-output"></div>
+      <!-- This is a Comment. It is ignored by the browser. -->
+      <h3>Details</h3>
+      <ul class="details-list">
+        <li>Class: Prog 550</li>
+        <li>Date: 20 September 2020</li>
+        <li>Sarah Uhlarik</li>
+      </ul>
+
+      <h3>Description</h3>
+      <p>One thing I'm passionate about is our planet and her limited natural resources. I try to do my part to limit my waste by recyling, reducing the amount of animal products I consume, taking public transit (when safe) and more. But recently I've wanted to take it a step further and begin composting. I didn't think that was very feasible living in Chicago but it turns out it's relatively easy. 
+      <br>  
+      <br>
+      So for this project I want to create an app that provides information on composting in the city.
+      <br>  
+      <br>
+      I would like to include the following features:
+      <ul class="description-list">
+        <li>Reasons why composting is beneficial </li>
+        <li>A quiz-like section on what can and can't be composted</li>
+        <li>Composting services based on location</li>
+      </ul>
+    </p>
+      <h3>
+        References
+        <ul class="references-list">
+          <li>
+            <a
+              href="http://illinoiscomposts.org/haulers-processors/"
+              title="Illinois Composts"
+              target="_blank"
+              >Illinois Composts</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.wastenotcompost.com/"
+              title="Illinois Composts"
+              target="_blank"
+              >WasteNot Compost</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://collectiveresource.us/"
+              title="Illinois Composts"
+              target="_blank"
+              >Collective Resource Compost</a
+            >
+          </li>
+        </ul>
+      </h3>
+
+      <button onclick = "myFunction()"> Toggle Dark Mode</button>
+
+      <script>
+        function myFunction(){
+          var element = document.body;
+          element.classList.toggle("dark");
+        }
+      </script>
+    
+    </main>
+    <footer>©2020 Sarah Uhlarik</footer>
+
+  </body>
+</html>
